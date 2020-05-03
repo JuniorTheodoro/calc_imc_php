@@ -1,14 +1,15 @@
 # App IMC
 <img src="https://pt.calcuworld.com/wp-content/uploads/sites/6/2019/07/imc-.png" height="256" width="256">
-Este aplicativo tem como função básica e única de realizar o cálculo do índice de massa corporal através da
+Este aplicativo tem como função básica e única de realizar o calculo do índice de massa corporal através da
 entrada dos valores de peso e altura informadas pelo usuário e apresentar o resultado e a descrição da situação.
+Tem como finalizada para uso acadêmico.
 
 ## Link
---> [App](https://calcimcjorge.netlify.app/)
+--> [App](https://imc-jorge-app.herokuapp.com/)
 
 ## Deployment
 [Composer](https://getcomposer.org/download/)
-Utilizando [Heroku](https://www.heroku.com/)
+[Heroku](https://www.heroku.com/)
 
 ## Built With
 * XAMPP Installation Directory: "c:\xampp\"
@@ -24,3 +25,15 @@ Utilizando [Heroku](https://www.heroku.com/)
 
 ## Structure
 --> MVC (Model, View, Controller)
+
+## Background
+Imagens de background apresentadas tem origem do site "Unsplash Source" que disponibiliza gratuitamente as imagens de forma aleatória
+
+## Uso
+O sistema foi desenvolvido utilizando o XAMPP Control Panel v3.2.4 com o servidor Apache rodando, a pasta "calc_imc_php" deve estar dentro do diretório:
+    "\xampp\htdocs"
+Para utilizar o sistema já com o ambiente montado, é só acessar através de seu navegador "http://localhost/calc_imc_php/app/";
+
+## Autor
+Jorge Augusto Theodoro Júnior
+Email: juninho_lpisrock@hotmail.com

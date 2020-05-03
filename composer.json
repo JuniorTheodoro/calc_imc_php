@@ -1,22 +1,20 @@
 {
-    "name": "phpmyadmin/phpmyadmin",
+    "name": "calc_imc_php/app",
     "type": "project",
-    "description": "A web interface for MySQL and MariaDB",
-    "keywords": ["phpmyadmin","mysql","web"],
-    "homepage": "https://www.phpmyadmin.net/",
+    "description": "Calculadora de IMC",
+    "keywords": ["imc","calculadora","web","mvc","php"],
     "support": {
-        "forum": "https://www.phpmyadmin.net/support/",
-        "issues": "https://github.com/phpmyadmin/phpmyadmin/issues",
-        "wiki": "https://wiki.phpmyadmin.net/",
-        "docs": "https://docs.phpmyadmin.net/",
-        "source": "https://github.com/phpmyadmin/phpmyadmin"
+        "issues": "https://github.com/JuniorTheodoro/calc_imc_php/issues",
+        "wiki": "https://github.com/JuniorTheodoro/calc_imc_php/wiki",
+        "docs": "https://github.com/JuniorTheodoro/calc_imc_php/blob/master/README.md",
+        "source": "https://github.com/JuniorTheodoro/calc_imc_php"
     },
     "license": "GPL-2.0-only",
     "authors": [
         {
-            "name": "The phpMyAdmin Team",
-            "email": "developers@phpmyadmin.net",
-            "homepage": "https://www.phpmyadmin.net/team/"
+            "name": "Jorge Augusto Theodoro Júnior",
+            "email": "juninho_lpisrock@hotmail.com",
+            "homepage": "https://github.com/JuniorTheodoro"
         }
     ],
     "non-feature-branches": ["RELEASE_.*"],
