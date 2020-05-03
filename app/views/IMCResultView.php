@@ -8,13 +8,11 @@
 
         private float $imc; # Constante com resultado do IMC
         private string $mensagem; # Constante da descrição do IMC calculado
-        private string $url;
 
         /* Construtor da classe setando suas váriveis globais necessária */
         public function __construct($parImc, $parMensagem) {
             $this->imc = $parImc;
             $this->mensagem = $parMensagem;
-            $this->url = substr($_SERVER["REQUEST_URI"], strpos($_SERVER["REQUEST_URI"], ''));
         }
 
         /* Função responsável por criar e apresentar a interface */
@@ -31,7 +29,6 @@
             echo '<div class="container">';
             echo '<div class="content">';
             echo '<p>' . $this->mensagem . '</p>';
-            echo '<p>' . $this->url . '</p>';
             echo '<form>';
             echo '<label for="resultado">RESULTADO</label>';
             echo '<input name="resultado" style="text-align: center" value=' . $this->imc . ' disabled />';
