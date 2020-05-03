@@ -23,7 +23,7 @@
             echo '<div class="content">';
             echo '<p>Faça o cálculo de seu Índice de Massa Corporal (<b>IMC</b>) aqui</p>';
             echo '<p>' . $url . '</p>';
-            echo '<form method="post" action="app/controllers/IMCController.php">';
+            echo '<form method="post" action="' . $url . 'app/controllers/IMCController.php">';
             echo '<label for="peso">PESO* (kg)</label>';
             echo '<input type="number" style="text-align: center" step="0.01" name="peso" maxlength="11" placeholder="Seu peso em kilogramas ..." required />';
             echo '<label for="altura">ALTURA* (m)</label>';
