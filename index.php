@@ -17,7 +17,7 @@
 
         /* Inicia o aplicativo */
         function iniciar() {
-            require_once 'controllers/IMCController.php';
+            require_once 'app/controllers/IMCController.php';
 
             $controller = new IMCController();
             $controller->index();

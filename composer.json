@@ -10,6 +10,10 @@
         "source": "https://github.com/JuniorTheodoro/calc_imc_php"
     },
     "license": "GPL-2.0-only",
+    "post-install-cmd": [
+        "php artisan clear-compiled",
+        "chmod -R 777 app/"
+    ],
     "authors": [
         {
             "name": "Jorge Augusto Theodoro Júnior",
