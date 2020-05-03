@@ -1,5 +1,5 @@
 {
-    "name": "calc_imc_php/app",
+    "name": "calc_imc_php",
     "type": "project",
     "description": "Calculadora de IMC",
     "keywords": ["imc","calculadora","web","mvc","php"],
@@ -10,10 +10,6 @@
         "source": "https://github.com/JuniorTheodoro/calc_imc_php"
     },
     "license": "GPL-2.0-only",
-    "post-install-cmd": [
-        "php artisan clear-compiled",
-        "chmod -R 777 app/"
-    ],
     "authors": [
         {
             "name": "Jorge Augusto Theodoro Júnior",

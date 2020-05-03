@@ -8,18 +8,21 @@
 
         /* Função responsável por criar e apresentar a interface */
         public function mostrar_calculadora() {
+            $url = substr($_SERVER["REQUEST_URI"], strpos($_SERVER["REQUEST_URI"], 'app'));
+
             echo '<!DOCTYPE html>';
             echo '<html lang="pt-br">';
             echo '<head>';
             echo '<meta charset="utf-8">';
             echo '<title>IMC</title>';
             echo '<link href="app/css/styles.css" rel="stylesheet">';
-            echo '<link rel="shortcut icon" href="favicon.ico" />';
+            echo '<link rel="shortcut icon" href="app/favicon.ico" />';
             echo '</head>';
             echo '<body>';
             echo '<div class="container">';
             echo '<div class="content">';
             echo '<p>Faça o cálculo de seu Índice de Massa Corporal (<b>IMC</b>) aqui</p>';
+            echo '<p>' . $url . '</p>';
             echo '<form method="post" action="app/controllers/IMCController.php">';
             echo '<label for="peso">PESO* (kg)</label>';
             echo '<input type="number" style="text-align: center" step="0.01" name="peso" maxlength="11" placeholder="Seu peso em kilogramas ..." required />';
