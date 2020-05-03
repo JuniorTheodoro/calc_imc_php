@@ -25,7 +25,7 @@
 
         /* Responsável por chamar a interface inicial do app */
         public function index() {
-            require_once 'app/views/IMCCalcView.php';
+            require_once 'views/IMCCalcView.php';
 
             $objCalc = new IMCCalcView();
             $objCalc->mostrar_calculadora();

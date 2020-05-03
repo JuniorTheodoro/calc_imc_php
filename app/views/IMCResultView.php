@@ -33,7 +33,7 @@
             echo '<label for="resultado">RESULTADO</label>';
             echo '<input name="resultado" style="text-align: center" value=' . $this->imc . ' disabled />';
             echo '</form>';
-            echo '<button class="btn" onclick="window.location.href=\'../../index.php\'">Voltar</button>';
+            echo '<button class="btn" onclick="window.location.href=\'../index.php\'">Voltar</button>';
             echo '</div>';
             echo '</div>';
             echo '</body>';
