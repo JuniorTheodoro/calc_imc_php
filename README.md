@@ -4,14 +4,19 @@ Este aplicativo tem como função básica e única de realizar o cálculo do ín
 entrada dos valores de peso e altura informadas pelo usuário e apresentar o resultado e a descrição da situação.
 
 ## Link
---> [App](https://csb-x9f31.netlify.com/)
+--> [App](https://calcimcjorge.netlify.app/)
 
 ## Deployment
 Utilizando [Netlify](https://www.netlify.com)
 
 ## Built With
+* XAMPP Installation Directory: "c:\xampp\"
 * [VisualCode](https://code.visualstudio.com/)
 * [Netlify](https://www.netlify.com)
 
 ## Versões
-* XAMPP: 3.2.4
+* XAMPP Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+* XAMP Version: 7.4.5
+
+## Structure
+--> MVC (Model, View, Controller)
