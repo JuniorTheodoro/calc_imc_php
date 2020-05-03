@@ -1,0 +1,9 @@
+Aplicativo com intuito de realizar o calculo do indice de massar corporal utilizando o peso e altura como valores de entrada;
+Aplicativo co fins acadêmicos;
+Linguagem utilizada: PHP;
+Framework: Não;
+Banco de dados: Não;
+Estrutura utilizada: MVC;
+Imagens de background apresentadas tem origem do site "Unsplash Source" que disponibiliza gratuitamente as imagens de forma aleatória;
+
+Aluno: Jorge Augusto Theodoro Júnior; Matrícula: 03730; Engenharia de Software I(SIN012); Prof(a). Margareth Machado Duarte;
