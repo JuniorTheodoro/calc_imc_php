@@ -1,6 +1,6 @@
 Aplicativo com intuito de realizar o calculo do indice de massar corporal utilizando o peso e altura como valores de entrada;
 Aplicativo co fins acadêmicos;
-Linguagem utilizada: PHP;
+Linguagem utilizada: PHP 7.4.5;
 Framework: Não;
 Banco de dados: Não;
 Estrutura utilizada: MVC;
