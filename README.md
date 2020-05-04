@@ -21,9 +21,14 @@ Tem como finalidade para uso acadêmico.
 Imagens de background apresentadas tem origem do site "Unsplash Source" que disponibiliza gratuitamente as imagens de forma aleatória
 
 ## Uso
-O sistema foi desenvolvido utilizando o XAMPP Control Panel v3.2.4 com o servidor Apache rodando, a pasta "calc_imc_php" deve estar dentro do diretório:<br>
+O sistema foi desenvolvido utilizando o XAMPP Control Panel v3.2.4 com o servidor Apache rodando, a pasta baixado do repositório "calc_imc_php" deve estar dentro do diretório:<br>
 * "\xampp\htdocs"<br>
 Para utilizar o sistema já com o ambiente montado, é só acessar através de seu navegador "http://localhost/calc_imc_php/app/";
+
+## Apache
+* Para rodar o servidor apache, adquira o XAMPP Control Panel[Link](https://www.apachefriends.org/pt_br/download.html)
+* Depois de instalado, execute o XAMPP e clique em "start" na coluna "Actions" para o servidor "Apache"(disponível na primeira linha)
+* Feito os procedimentos acima descritos, e com a pasta do sistema IMC no devido diretório(citado em "Uso" logo acima), resta somente executar o sistema desenvolvido.
 
 ## Autor
 Jorge Augusto Theodoro Júnior<br>
