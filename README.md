@@ -21,7 +21,7 @@ Tem como finalidade para uso acadêmico.
 Imagens de background apresentadas tem origem do site "Unsplash Source" que disponibiliza gratuitamente as imagens de forma aleatória
 
 ## Uso
-O sistema foi desenvolvido utilizando o XAMPP Control Panel v3.2.4 com o servidor Apache rodando, a pasta baixado do repositório "calc_imc_php" deve estar dentro do diretório:<br>
+O sistema foi desenvolvido utilizando o XAMPP Control Panel com o servidor Apache rodando, a pasta baixado do repositório "calc_imc_php" deve estar dentro do diretório:<br>
 * "\xampp\htdocs"<br>
 Para utilizar o sistema já com o ambiente montado, é só acessar através de seu navegador "http://localhost/calc_imc_php/app/";
 
